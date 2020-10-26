@@ -47,7 +47,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "A first look at an initial heatmap of our features shows us which features have meaningful correlations with one another. We can see that the variables with the strongest correlation to `price` are the square footage of the living space (`sqft_living`), building construction rating (`grade`), and a the neighbors' interior living space (`sqft_living15`). \n",
+    "A first look at an initial heatmap of our features shows us which features have meaningful correlations with one another. We can see that the variables with the strongest correlation to `price` are the square footage of the living space (`sqft_living`), building construction rating (`grade`), and the neighbors' interior living space (`sqft_living15`). \n",
     "\n",
     "New features have been added in order to find additional relationships to enhance the model. Added features which have had the most influence on the final model include binning `condition` into 2 distinct categories (`condition2_1`), the the number of `bathrooms`, and also the square footage of the 15 closest neighbor's homes in comparison to the house sold (`neighbors_compared`)  "
    ]
